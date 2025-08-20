@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      /*class selector*/
+      .red {
+        background-color: green;
+        color: antiquewhite;
+      }
+      /*id selector*/
+      #blue {
+        background-color: orangered;
+        color: black;
+      }
+      /*child selector*/
+      div > p {
+        background-color: rgb(65, 42, 165);
+      }
+      /*decending selector*/
+      div p {
+        background-color: rgb(65, 42, 165);
+      }
+      /* universal selector */
+      * {
+        margin: 0;
+        padding: 1;
+      }
+      /* pseudo selector */
+      a:visited {
+        color: rgb(70, 215, 70);
+      }
+      a:link{
+        color: black;
+      }
+      a:active{
+        background-color: rgb(123, 59, 182);
+      }
+      a:hover{
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red">This are info of class Selectors</div>
+    <div id="blue">
+      this is info of id Selectors
+      <article>
+        <p>this is info in paragraph</p>
+      </article>
+    </div>
+    <a href="http://www.google.com">go to google</a>
+    <a href="http://www.facebook.com">go to faceboook</a>
+  </body>
+</html>
