@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variable</title>
+    <style>
+        :root{
+            --color: rgb(249, 57, 57);
+            /* --incolor: rgb(36, 243, 56); */
+            --pad:23px;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul{
+            display: flex;
+            background-color: rgb(255, 179, 80);
+
+        }
+        ul li{
+            list-style: none;
+            padding: var(--pad);
+        }
+        ul :first-child{
+            background-color: blueviolet;
+        }
+        ul  :last-child{
+            background-color: var(--color);
+        }
+        .container{
+            background-color:var(--incolor,rgb(230, 57, 227));
+            color: var(--color);
+        }
+    </style>
+</head>
+<body>
+    <div class="lists">
+        <ul>
+            <li>
+                Home
+            </li>
+            <li>
+                Page
+            </li>
+            <li>
+                Phone
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non eos quam optio veniam, perspiciatis ad temporibus quae et accusantium, aut praesentium labore aliquam! Numquam dolorem quae voluptate quibusdam perferendis aliquam commodi, at aperiam nemo, cumque, architecto eius. Laborum maxime blanditiis accusamus deleniti nisi eligendi nostrum.
+    </div>
+</body>
+</html>
