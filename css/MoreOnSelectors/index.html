@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On selectors</title>
+    <style>
+        /* .boxes *{
+            background-color: red;
+            text-decoration: underline;
+            color: aliceblue;
+        } */
+
+        /* .boxes :first-child{
+            color: blue;
+        } */
+
+        /* .boxes :nth-child(2){
+            background-color: aqua;
+        } */
+
+        /* .boxes :nth-child(odd){
+            color: blueviolet;
+        } */
+
+        /* .boxes :nth-last-child(2){
+            color: orangered;
+        } */
+
+        /* .boxes::first-line{
+            color: brown;
+        } */
+
+        .boxes ::before{
+            content: "this is content";
+            color: red;
+        }
+        .boxes ::after{
+            content: "this is content";
+            color: red;
+        }
+        ::selection{
+            color: blue;
+            background-color: rgb(219, 13, 13);
+        }
+        input::placeholder
+
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptatum dignissimos magni ipsum soluta assumenda sed veritatis officiis quo officia!</div>
+        <div class="box">here is a box2</div>
+        <div class="box">This is last or 3rd box</div>
+        <input type="text" placeholder="enter your name here">
+    </div>
+</body>
+</html>
