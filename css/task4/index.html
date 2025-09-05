@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nav--bar</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
       nav {
         display: flex;
@@ -14,19 +16,40 @@
       }
       .div2 {
         gap: 50px;
-        font-weight: bold;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: large;
+        font-size: large;`
       }
       .div3 {
-        font-size: 18px;
         display: flex;
-        gap: 20px;
-        align-items: center;
+        gap: 25px;
 
       }
+      .child5{
+        border: 3px solid black;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 42px;
+        width: 9vw;
+        font-weight: bold;
+      }
+      .child6{
+        margin-top: 5%;
+      }
+      .fa-magnifying-glass {
+        position: relative;
+        right:100px ;
+
+      }
+    .fa-globe{
+      position: relative;
+      top: 14px;
+      left: 18px;
+      font-size: 20px;
+    }
     </style>
   </head>
   <body>
@@ -44,8 +67,11 @@
 
       <div class="div3">
         <div class="child5">DOWNLOAD</div>
+        <i class="fa-solid fa-globe"></i>
         <div class="child6">English</div>
       </div>
+
+      <i class="fa-solid fa-magnifying-glass"></i>
     </nav>
   </body>
 </html>
