@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATION of ball</title>
+    <style>
+        .outside{
+            background-color: blue;
+            height: 80vh;
+            width: 80%;
+        }
+        .inside{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            border-radius: 1000px;
+            position: relative;
+            top: 83%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            animation: ball 3s ease-in-out 1s 1 ;
+            
+        }
+        @keyframes ball{
+            from{
+                
+            }
+            to{
+            transform: translateX(72.5vw) rotate(1turn);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="outside">
+        <div class="inside">5</div>
+    </div>
+</body>
+</html>
