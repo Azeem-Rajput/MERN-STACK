@@ -49,7 +49,43 @@ span{
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
     margin-top: 10%;
-    font-weight: bolder;
-    font-size: 50px;
+    position: relative;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size:20px;
+    
+}
+.cont1{
+     font-family: sans-serif;
+    font-weight: 900;
+    font-size:50px;
+}
+.incont1{
+    margin-left: 60px;
+}
+.cont2{
+    font-weight: bold;
+}
+.cont3{
+    margin-top: 40px;
+}
+.mail{
+    margin-left: 25%;
+    margin-top: 1%;
+    position: relative;
+    z-index: 10;
+}
+.mailb{
+    border: 2px solid white;
+    width: 400px;
+    height: 60px;
+   background-color: black;
+   opacity: 0.5;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-weight: normal;
+    
 }
