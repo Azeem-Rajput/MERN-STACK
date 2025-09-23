@@ -2,15 +2,54 @@
     padding: 0;
     margin: 0;
 }
-main{
+.main{
     background-image: url("bg.jpg");
-    height: 80vh;
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+}
+.main .box{
+    height: 90vh;
     width: 100vw;
     opacity: 0.7;
-}
-main .box{
-    height: 80vh;
-    width: 100vw;
     background-color: rgb(0, 0, 0);
-    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    background-color: red;
+    color: white;
+    border: solid red 2px;
+    border-radius: 4px;
+    width: 80px;
+    height: 35px;
+    font-size: medium;
+    position: relative;
+    z-index: 10;
+    
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 500px;
+    
+}
+span{
+    margin-top: 20px;
+    margin-right: 40px;
+    position: relative;
+    z-index: 10;
+}
+
+.container{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+    font-weight: bolder;
+    font-size: 50px;
 }
