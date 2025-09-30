@@ -91,7 +91,8 @@ span img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    
+    gap: 5px;
 
 }
 .mailc{
@@ -100,11 +101,13 @@ span img{
     padding: 20px 60px;
     border-radius: 5px;
     font-size: 20px;
+    text-align: center;
 }
 div input{
      background-color: rgb(0, 0, 0);
+     opacity: 0.5;
     color: white;
-    padding: 20px 83px;
+    padding: 20px 112px 16px 10px;
     border-radius: 5px;
     font-size: 20px;
     display: flex;
