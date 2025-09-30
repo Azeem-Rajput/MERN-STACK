@@ -146,5 +146,22 @@ section{
     padding: 20px 162px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 3%;
-
+}
+.lowercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.lowercontainer div{
+    background-color: rgb(43, 13, 13);
+    height: 40vh;
+    width: 15vw;
+    border-radius: 26px;
+    color: white;
+    text-align: center;
+     margin-top: 10%;
+}
+.lowercontainer div p{
+    margin-top: 5%;
 }
