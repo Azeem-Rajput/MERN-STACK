@@ -151,17 +151,24 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 16px;
 }
 .lowercontainer div{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(43, 13, 13);
     height: 40vh;
-    width: 15vw;
+    width: 17vw;
     border-radius: 26px;
     color: white;
-    text-align: center;
-     margin-top: 10%;
+    text-align: left;
+     /* margin-top: 15%; */
 }
 .lowercontainer div p{
-    margin-top: 5%;
+    margin-top: 3%;
+    padding: 6px 16px;
+    opacity: 0.5;
+}
+.lowercontainer div h2{
+    margin-top: 8%;
+    padding: 6px 16px;
 }
