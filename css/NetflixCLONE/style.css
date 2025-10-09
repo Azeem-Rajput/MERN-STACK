@@ -235,5 +235,11 @@ section{
     color: rgba(255, 255, 255, 0.7);
     font-family:'Popins', sans-serif;
     padding: 48px 162px;
+    
+}
+.fifth span{
     text-decoration: underline;
+}
+.pointsf{
+    
 }
