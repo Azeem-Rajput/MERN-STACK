@@ -192,6 +192,11 @@ section{
     align-items: center;
     gap: 7px;
     padding: 1px 51px 15px 1px;
+    
+}
+.rectcontainer div:hover{
+    background-color: rgb(103, 102, 102);
+
 }
 .rectcontainer div{
     color: white;
@@ -203,6 +208,8 @@ section{
     align-items: center;
     padding: 0px 0px 0px 21px;
     font-size: x-large;
+    transition: all 1s ease-out;
+    cursor: pointer;
 }
 .onefor{
     font-family:'Popins', sans-serif;
@@ -241,5 +248,6 @@ section{
     text-decoration: underline;
 }
 .pointsf{
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
