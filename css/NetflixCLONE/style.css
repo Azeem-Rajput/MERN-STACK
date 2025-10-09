@@ -202,3 +202,11 @@ section{
     padding: 0px 0px 0px 21px;
     font-size: x-large;
 }
+.onefor{
+    font-family:'Popins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
