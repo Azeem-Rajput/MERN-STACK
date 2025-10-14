@@ -23,9 +23,10 @@ body{
     top: 0;
 }
 .navbar{
-    flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px 5%;
+    flex-wrap: wrap;
 
 }
 .btn{
@@ -91,11 +92,13 @@ span img{
     font-weight: 400;
 }
 .mail{
-    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
+    flex-wrap: wrap;
+     width: 100%;
+  padding: 0 5%;
 
 }
 .mailc{
@@ -104,9 +107,10 @@ span img{
     border: transparent;
     padding:15px 26px;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: clamp(1rem, 3vw, 1.5rem);
     font-weight: 500;
     text-align: center;
+    cursor: pointer;
 }
 div input{
     background-color: rgba(23, 23, 23, 0.7);
@@ -242,14 +246,16 @@ section{
     text-align: center;
 }
 .fourthmail{
-    flex-wrap: wrap;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 5px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 5%;
 }
 .fourthmail input{
     padding: 20px 322px 16px 10px;
-
 }
 .fifth{
     color: rgba(255, 255, 255, 0.7);
