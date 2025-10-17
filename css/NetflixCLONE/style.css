@@ -335,4 +335,14 @@ footer{
         padding:5px 5px;
     }
 }
+@media only screen and (max-width: 575px){
+    .fourthmail input{
+        padding: 10px 87px 15px 10px;
+    }
+}
+/* @media only screen and (max-width: 1027px){
+    .sign{
+        margin-top: 3%;
+    }
+} */
 
