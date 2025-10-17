@@ -324,4 +324,15 @@ footer{
     max-width: none;
   }
 }
+@media only screen and (max-width: 759px){
+    .cont1{
+        font-size: 25px;
+    }
+    .cont2{
+        font-size: medium;
+    }
+    footer{
+        padding:5px 5px;
+    }
+}
 
