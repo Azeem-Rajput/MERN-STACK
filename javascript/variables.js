@@ -3,6 +3,8 @@ let accountEmail="azeem@google.com"
 var accountPassward="10oej"
 let accountCity
 
+// prefer not to use var because of issue in block & functional scope 
+
 // accountId=5674//not allowed
 
 accountEmail="rajput@google,com"
