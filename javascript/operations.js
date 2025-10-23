@@ -21,6 +21,10 @@ let fullName=nOne+nTwo
 // console.log("1"+2+3)
 // console.log(1+2+"3")
 
-let game=123
-++game
-console.log(game)
+
+// let game=123
+// ++game
+// console.log(game)
+
+console.log(+true)
+console.log(+"")
