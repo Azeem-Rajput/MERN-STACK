@@ -36,6 +36,7 @@ console.log(url.replace('100','---'))
 console.log(url.includes('rajput'))
 console.log(url.includes('azeem'))
 
+
 console.log(game.split('-'))
 
 
