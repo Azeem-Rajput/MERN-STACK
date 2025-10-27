@@ -32,6 +32,7 @@ const lushString="   azeem    "
 console.log(lushString.trimEnd())
 
 const url="http://azeem.com/azeem%20ans100"
+``
 console.log(url.replace('100','---'))
 
 console.log(url.includes('rajput'))
