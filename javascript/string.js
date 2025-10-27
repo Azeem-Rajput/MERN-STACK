@@ -17,6 +17,7 @@ console.log(game.__proto__)  // looks empty {}
 
 // __proto__ i the all prototypes of object (like the string which we use its holds diff. prototypes like uppercase letter, lenght that we call below....)
 // console.log(game.length)
+
 console.log(game.toUpperCase())
 console.log(game.charAt(2))
 console.log(game.indexOf('e'))
