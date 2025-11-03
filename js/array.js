@@ -22,7 +22,7 @@ const array2=new Array(1,5,2,8,3)
 // console.log(typeof myArray)
 
 console.log(myArray)
-console.log("slice ",myArray.slice(0,2))
+console.log("slice ",myArray.slice(0,2)) // slice(start,end)  end is not included
 console.log(myArray)
-console.log("splice",myArray.splice(0,3))
+console.log("splice",myArray.splice(0,3))// splice(start,count)
 console.log(myArray)
