@@ -13,6 +13,7 @@ const JsUser={
     logIn:"azeem@software.com",
     logInDay:["monday","thursday"]
 }
+
 console.log(JsUser.name)  // its not valid way
 console.log(JsUser["age"]) // another way    /* In behind name,age.location,etc all objects treat as string */
 console.log(JsUser["full name"])
