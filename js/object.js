@@ -2,7 +2,6 @@
 // object.create ( also known as "through constructor")
 
 // object literals
-
 const mySymb=Symbol("cluster")
 const JsUser={
     name:"Muhammad Azeem",
