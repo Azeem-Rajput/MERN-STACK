@@ -25,7 +25,7 @@ const varie2={1:"zz",2:"dd"}
  // writing {} in object.assign() is better because insome cases in which many objects are forms like 3,4 than the all values are considered assign in first object in obj.ass()
 
  const varie3={...varie,...varie2}  //   (Easy and modern method)
-// console.log(varie3)
+// console.log(varie3) 
 
 const aray=[
     {   
@@ -34,8 +34,38 @@ const aray=[
     }
 ]
 
-console.log(Object.keys(application))
-console.log(Object.values(application))
-console.log(Object.entries(application))
+// console.log(Object.keys(application))
+// console.log(Object.values(application))
+// console.log(Object.entries(application))
 
-console.log(application.hasOwnProperty('id'))
+// console.log(application.hasOwnProperty('id'))
+
+
+// ++++++++++++++++  object destructure  ++++++++++++++++++++
+
+const course={
+    courseInstructor:"Rajput",
+    price:9292,
+    code:2099
+}
+// console.log(course.code)
+const {code:de}=course   // where curly brasis you see than understand that its a destructuring also in other lang. like react 
+// console.log(code)
+console.log(de)  // another method 
+
+//   (API structure)
+
+{
+    name="azeem",
+    course="youtube"
+    feee=0
+}
+
+// (API also in array form)
+[
+    {},
+    {}, 
+    {}
+]
+
+// ( json = Java Script Object Notation)
