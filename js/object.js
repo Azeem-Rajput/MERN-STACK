@@ -16,5 +16,6 @@ const JsUser={
 
 console.log(JsUser.name)  // its not valid way
 console.log(JsUser["age"]) // another way    /* In behind name,age.location,etc all objects treat as string */
+
 console.log(JsUser["full name"])
 console.log(typeof JsUser[mySymb])
