@@ -27,8 +27,6 @@ function onee()
 onee()
 
 
-
-
 // --------------------Intresting--------------------------
 addingOne(9)
 function addingOne(num)
