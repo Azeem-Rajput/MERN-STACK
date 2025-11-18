@@ -6,6 +6,7 @@ if (true)       //  (
     let a=2     //       Block Scope
     const c=99  //  )
 }
+
 // console.log(a)
 //      console.log(a)
 // console.log(c)
