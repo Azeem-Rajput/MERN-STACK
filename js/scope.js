@@ -11,7 +11,6 @@ if (true)       //  (
 //      console.log(a)
 // console.log(c)
 
-
 function onee()
 {
     namea="AZeem"
