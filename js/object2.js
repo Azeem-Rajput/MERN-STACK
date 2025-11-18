@@ -68,5 +68,4 @@ console.log(de)  // another method
     {}, 
     {}
 ]
-
 // ( json = Java Script Object Notation)
