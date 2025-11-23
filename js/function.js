@@ -60,6 +60,7 @@ function obf(object)  // we pass value is must me object data type e.g(object)
 
 // obf(obj1)
 obf({
+    
     realName:"Rajput",
     id:22000
 })
