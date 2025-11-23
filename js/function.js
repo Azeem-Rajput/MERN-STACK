@@ -69,7 +69,6 @@ obf({
 
 
 
-
 //------------------------Access array in function----------------------
 const array=[29,900,11]
 
