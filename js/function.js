@@ -58,12 +58,13 @@ function obf(object)  // we pass value is must me object data type e.g(object)
     // console.log(`the real name is=${object.realName} and the unique id is=${object.id}`)
 }
 
+
 // obf(obj1)
 obf({
 
     realName:"Rajput",
     id:22000
-    
+
 })
 
 
