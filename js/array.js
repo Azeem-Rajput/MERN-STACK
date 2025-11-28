@@ -21,6 +21,7 @@ const array2=new Array(1,5,2,8,3)
 // console.log(typeof anotherArray)
 // console.log(typeof myArray)
 
+
 console.log(myArray)
 console.log("slice ",myArray.slice(0,2)) // slice(start,end)  end is not included
 console.log(myArray)
