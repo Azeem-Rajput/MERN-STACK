@@ -7,6 +7,7 @@ const customer={
         // console.log(this)  // "this" --> talk about current values
     }
 }
+
 // customer.print()
 // customer.name="Rajput"
 // customer.print()
