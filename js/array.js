@@ -16,6 +16,7 @@ const array2=new Array(1,5,2,8,3)
 // console.log(myArray.includes(10))
 
 
+
 // const anotherArray=myArray.join()
 // console.log(myArray)
 // console.log(anotherArray)
