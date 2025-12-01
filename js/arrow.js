@@ -1,4 +1,5 @@
 const customer={
+    
     name:"Azeem",
     pass:120,
     print:function()
