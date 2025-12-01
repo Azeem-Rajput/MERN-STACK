@@ -6,8 +6,9 @@ const customer={
     {
         // console.log(`${this.name}--welcome to account`)
         // console.log(this)  // "this" --> talk about current values
+        
     }
-    
+
 }
 
 // customer.print()
