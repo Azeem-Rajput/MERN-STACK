@@ -12,6 +12,7 @@ const customer={
 
 }
 
+
 // customer.print()
 // customer.name="Rajput"
 // customer.print()
