@@ -37,6 +37,7 @@ const customer={
 
 //     let username="aazeem"
 //     console.log(this.username)   // Wed see that "this" is only works in object
+
 // }
 // chaye() 
 
