@@ -52,7 +52,7 @@ const chaye= ()=>
 }
 
 chaye() 
-//----------------------Explisit return(when curly braces use)-------------------
+// ----------------------Explisit return(when curly braces use)-------------------
 
 // const adding=(num1,num2)=>{
 //     return num1+num2;
