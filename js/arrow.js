@@ -57,7 +57,7 @@ chaye()
 // const adding=(num1,num2)=>{
 //      return num1+num2;
 // }
-// console.log(adding(2,2))
+//  console.log(adding(2,2))
 
 // ++++++++++++++++++++Implisit return(when no any curly braces use)
 // const adding=(num1,num2) =>  (num1+num2)  // with no curly braces
