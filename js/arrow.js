@@ -64,7 +64,7 @@ chaye()
 // console.log(5+5)
 
 
-// ...........for object.............
+// ........... for object.............
 
 const add=(num1 , num2) => {nameo:"Azeem Rajput"}
 
