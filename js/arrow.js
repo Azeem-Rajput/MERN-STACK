@@ -68,4 +68,4 @@ chaye()
 
 const add=(num1 , num2) => {nameo:"Azeem Rajput"}
 
-console.log(add(2 , 7))
+console.log(add(2 , 7) )
