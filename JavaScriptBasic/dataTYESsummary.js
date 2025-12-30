@@ -32,7 +32,7 @@ let myObj={
 //functions   (data type=function object)
 const func=function()
 {
-    console.log("Azeem")
+   // console.log("Azeem")
 }
 
-console.log(typeof Id)
+// console.log(typeof Id)
