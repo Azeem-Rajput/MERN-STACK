@@ -5,7 +5,7 @@ const customer={
     print:function()
     {
         
-        // console.log(`${this.name}--welcome to account`)
+        console.log(`${this.name}--welcome to account`)
         // console.log(this)  // "this" --> talk about current values
 
     }
@@ -71,4 +71,4 @@ const add = (num1 , num2) => {nameo:" Azeem Rajput "}
 
 
 
-console.log( add(2 , 7) )
+// console.log( add(2 , 7) )

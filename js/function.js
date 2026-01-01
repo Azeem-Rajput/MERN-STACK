@@ -1,23 +1,23 @@
-function sayMyname(){
-    console.log("Azeem")
-    console.log("Rajput")
-}
-// sayMyname()
-
-// function addNumbers(num1,num2)  //.............. { (num1 & num2) are parametrs(when num1 and num2 are form ) } 
-// {
-//     console.log(num1+num2)
+// function sayMyname(){
+//      console.log("Azeem")
+//      console.log("Rajput")
 // }
+//  sayMyname()
+
+function addNumbers(num1,num2)  //.............. { (num1 & num2) are parametrs(when num1 and num2 are form ) } 
+{
+    console.log(num1+num2)
+}
 
 
 function addNumbers(num1,num2)
 {
-    // console.log("kjdsuh")
+    console.log("kjdsuh")
     return num1+num2
     console.log("wnj")
 }
 const result=addNumbers(2,3)    // .................when value are passing then is known as arguments ( when we call function )
-// console.log(result)
+console.log(result)
 
 
 
@@ -25,12 +25,12 @@ function weLogin(username)  // we use as a default like (username="kka")
 {
     if(!username)  // ---------if(username==undefined)
     { 
-        // console.log("Enter your username")
+        console.log("Enter your username")
         return
-    }
-    return `${username} is logged in`
+    }   
+     return `${username} is logged in`
 }
-// console.log (weLogin())   //  weLogin()
+ console.log (weLogin())   //  weLogin()
 
 
 
@@ -38,7 +38,7 @@ function weLogin(username)  // we use as a default like (username="kka")
 
 function countingItemOfstore(...num)  // Rest operator(...) mens how multiple values passes through function
 {
-    return num
+    // return num
 }
 // console.log(countingItemOfstore(1000,2000,3000))
 
@@ -76,9 +76,9 @@ const array=[29,900,11]
 
 function withArray(otherArray)
 {
-    return `The secand value of aaray is ${otherArray[1]}`
+    // return `The secand value of aaray is ${otherArray[1]}`
 }
 // console.log(withArray(array))
-console.log(withArray([100,300,7100]))
+// console.log(withArray([100,300,7100]))
 
 

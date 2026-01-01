@@ -13,8 +13,8 @@ const JsUser={
     logInDay:["monday","thursday"]
 }
 
-// console.log(JsUser.name)  // its not valid way
-// console.log(JsUser["age"]) // another way    /* In behind name,age.location,etc all objects treat as string */
+console.log(JsUser.name)  // its not valid way
+console.log(JsUser["age"]) // another way    /* In behind name,age.location,etc all objects treat as string */
 
 // console.log(JsUser["full name"])
 // console.log(JsUser[mySymb])
