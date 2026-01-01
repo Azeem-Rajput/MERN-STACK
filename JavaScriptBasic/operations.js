@@ -26,5 +26,5 @@ let fullName=nOne+nTwo
 // ++game
 // console.log(game)
 
-console.log(+true)
-console.log(+"")
+// console.log(+true)
+// console.log(+"")
