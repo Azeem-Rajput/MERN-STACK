@@ -26,6 +26,7 @@ console.log(JsUser["age"]) // another way    /* In behind name,age.location,etc 
 // JsUser.logIn="azeem@softs.com"
 
 // defining function
+
 JsUser.info=function(){
     console.log("Arm wrestler")
 }
