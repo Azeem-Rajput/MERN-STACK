@@ -5,6 +5,7 @@ application.name="softs"
 application.id="LQ20NDU82"
 application.isLoggedin=false
 
+
 // console.log(application)
 
 const publish={
