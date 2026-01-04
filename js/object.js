@@ -20,6 +20,7 @@ console.log(JsUser["age"]) // another way    /* In behind name,age.location,etc 
 // console.log(JsUser[mySymb])
 // console.log(typeof mySymb)
 
+
 // JsUser.logIn="azeem@gpt.com"
 // console.log(JsUser)
 // Object.freeze()
