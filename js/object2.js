@@ -19,6 +19,7 @@ const publish={
 }
 // console.log(publish.publishing.publishment.pass)
 
+
 const varie={1:"az",2:"da"}
 const varie2={1:"zz",2:"dd"}
 
