@@ -31,6 +31,7 @@ console.log(JsUser["age"]) // another way    /* In behind name,age.location,etc 
 JsUser.info=function(){
     console.log("Arm wrestler")
 }
+
 JsUser.infotwo=function(){
     console.log(`Arm wrestler,${this.name}`)
 }
