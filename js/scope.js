@@ -7,9 +7,9 @@ if (true)       //  (
     const c=99  //  )
 }
 
-// console.log(a)
-//      console.log(a)
-// console.log(c)
+//  console.log(a)
+//  console.log(a)
+//  console.log(c)
 
 function onee()
 {
@@ -19,7 +19,7 @@ function onee()
         nameb="RAjput"
         // console.log(namea)
     }
-    // console.log(nameb)
+     // console.log(nameb)
 
     twoo()
 }
@@ -27,11 +27,11 @@ onee()
 
 
 // --------------------Intresting--------------------------
-addingOne(9)
-function addingOne(num)
-{
-    return num+1
-}
+// addingOne(9)
+// function addingOne(num)
+// {
+//     return num+1
+// }
 
 
 
