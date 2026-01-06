@@ -21,6 +21,7 @@ const publish={
 
 
 const varie={1:"az",2:"da"}
+
 const varie2={1:"zz",2:"dd"}
 
 /*const varie3= Object.assign({},varie,varie2)*/ 
