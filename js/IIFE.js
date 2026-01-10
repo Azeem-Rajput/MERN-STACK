@@ -17,6 +17,6 @@ function chaye(){
 ( (name)=>{
     //un-named IIFE
     console.log(`${name} Arm Wrestler`)
-})('Azeem Rajput')
+}) ('Azeem Rajput')
 
  // write two IIFE with the help of semicolon(;)
