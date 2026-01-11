@@ -7,6 +7,7 @@ function chaye(){
     console.log("HEy najadakd")
 }chaye();     // semicolon is necessary at the end of every function to run next function in IIFE
 
+
 // 2.
 (function chaye(){
     // named IIFE
