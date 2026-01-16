@@ -3,6 +3,7 @@
  // "used for avoid pollution of global scope"
 
  
+ 
 // 1. 
 function chaye(){
     console.log("HEy najadakd")
