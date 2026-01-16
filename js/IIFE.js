@@ -3,7 +3,7 @@
  // "used for avoid pollution of global scope"
 
  
- 
+
 // 1. 
 function chaye(){
     console.log("HEy najadakd")
@@ -16,6 +16,8 @@ function chaye(){
     // named IIFE
     console.log("HEy najadakd")           // ()() "the first bracket is for 'function defining'  and the secand bracket is for function call  "
 })();    // semicolon is necessary at the end of every function to run next function in IIFE
+
+
 
 
 //3.
