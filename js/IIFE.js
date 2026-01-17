@@ -26,4 +26,4 @@ function chaye(){
 }) ('Azeem Rajput')
 
 
- // write two IIFE with the help of semicolon(;)
+ // write two IIFE with the help of semicolon (;)
