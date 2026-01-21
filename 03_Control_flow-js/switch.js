@@ -21,11 +21,11 @@ switch (month) {
         break;
 
     case 3:
-        console.log("march.")
+        console.log("march")
         break;
         
     case 4:
-        console.log("april.")
+        console.log("april")
         break;
     default:
         console.log("default condition match")
