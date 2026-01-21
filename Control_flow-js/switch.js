@@ -1,3 +1,4 @@
+//         ++++++++++++++++++++++++ Without using multiple times if else +++++++++++++++++++++++
 // switch (key) {
 //     case value:
         
