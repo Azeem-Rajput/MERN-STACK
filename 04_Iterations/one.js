@@ -37,7 +37,8 @@ for (let index = 0; index < theArray.length; index++) {
 
 
 // _________________________________break & continue_________________________________
-for (let index = 0; index <=20 ; index++) {
+for (let index = 0; index <=20 ; index++)
+     {
     
     if(index==5)
     {
