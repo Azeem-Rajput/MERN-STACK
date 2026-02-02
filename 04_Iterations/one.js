@@ -27,7 +27,8 @@ for(let i=0;i<=10;i++)
 
 // ----------------------Array------------------
 let theArray=["is","am","are"]
-for (let index = 0; index < theArray.length; index++) {
+for (let index = 0; index < theArray.length; index++) 
+{
     const element = theArray[index];
     console.log(element)
 }
@@ -39,7 +40,7 @@ for (let index = 0; index < theArray.length; index++) {
 // _________________________________break & continue_________________________________
 for (let index = 0; index <=20 ; index++)
      {
-    
+
     if(index==5)
     {
         console.log("5 is caught")
