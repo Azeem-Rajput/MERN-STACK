@@ -46,6 +46,7 @@ for (let index = 0; index <=20 ; index++)
     {
         console.log("5 is caught")
         break
+        
     }
     console.log(index)
 
