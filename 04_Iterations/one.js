@@ -60,5 +60,6 @@ for (let index = 0; index <=15; index++) {
         console.log("13 detected")
         continue
     }
+    
     console.log(index)
 }
