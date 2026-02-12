@@ -56,6 +56,7 @@ for (let index = 0; index <=20 ; index++)
 
 for (let index = 0; index <=15; index++) {
     if(index==13)
+        
     {
         console.log("13 detected")
         continue
