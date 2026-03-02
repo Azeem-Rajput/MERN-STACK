@@ -28,6 +28,7 @@ for(let i=0;i<=10;i++)
 
 // ----------------------Array------------------
 let theArray=["is","am","are"]
+
 for (let index = 0; index < theArray.length; index++) 
 {
     const element = theArray[index];
