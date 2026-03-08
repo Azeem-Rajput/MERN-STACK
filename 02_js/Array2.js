@@ -1,10 +1,10 @@
 const array=["azeem","rajput","hamza","rajput"]
 const arrayOther=["mateen","rajput","salahuddin","rajput"]
 
-// array.push( arrayOther)
+array.push( arrayOther)
 // console.log(array[4][2])
 
-// const mergeArray=array.concat(arrayOther)
+const mergeArray=array.concat(arrayOther)
 // console.log(mergeArray[0])
 
 //               or

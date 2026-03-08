@@ -2,8 +2,8 @@
 let n1=123
 let n2=n1
 n2=456
-console.log(n1)
-console.log(n2)
+// console.log(n1)
+// console.log(n2)
 
 //& heap(In non-primitive)
 
