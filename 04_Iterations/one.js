@@ -32,6 +32,7 @@ let theArray=["is","am","are"]
 
 for (let index = 0; index < theArray.length; index++) 
 {
+    
     const element = theArray[index];
     
     console.log(element)
