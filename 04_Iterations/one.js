@@ -36,7 +36,7 @@ for (let index = 0; index < theArray.length; index++)
 
     const element = theArray[index];
     
-    console.log(element)
+    //console.log(element)
     
 }
 
@@ -54,13 +54,13 @@ for (let index = 0; index <=20 ; index++)
     if(index==5)
     {
 
-        console.log("5 is caught")
+       // console.log("5 is caught")
         
         break
         
     }
     
-    console.log(index)
+    // console.log(index)
 
 
 }
@@ -71,10 +71,10 @@ for (let index = 0; index <=15; index++) {
     if(index==13)
         
     {
-        console.log("13 detected")
+        //console.log("13 detected")
         continue
     }
 
-    console.log(index)
+    //console.log(index)
     
 }

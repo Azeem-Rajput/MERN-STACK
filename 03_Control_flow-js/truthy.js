@@ -41,10 +41,10 @@ let val
 // val=5 ?? 30
 // val=30 ?? 5
 // val=null ?? 20
-// val=20 ?? undefined
-val=undefined ?? null ?? 30
+//
+ val=undefined ?? null ?? 30
 
-// console.log(val)
+ console.log(val)
 
 
 // +++++++++++++++++++++++++++++ Terniary operator ++++++++++++++++++++++++++++++++++++
@@ -52,4 +52,4 @@ val=undefined ?? null ?? 30
 // e.g;
 
 const bookPrice=200
-bookPrice<=100 ? console.log("less than or equal to 100") : console.log("Greater than 100")
+//bookPrice<=100 ? console.log("less than or equal to 100") : console.log("Greater than 100")
