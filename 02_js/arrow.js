@@ -4,11 +4,11 @@ const customer={
     pass:120,
 
 
-    print:function()
+    print:function()   //  name:function()
     {
         
-        console.log(`${this.name}--welcome to account`)
-         console.log(this)  // "this" --> talk about current values
+        //  console.log(`${this.name}--welcome to account`)
+        //  console.log(this)  // "this" --> talk about current values
 
     }
 
@@ -43,15 +43,15 @@ customer.name="Rajput"
 
 
 
-const chaye= ()=>
-{
+// const chaye= ()=>
+// {
 
-    let username="aazeem"
-    // console.log(this.username)   // Wed see that "this" is only works in object
+//     let username="aazeem"
+//     // console.log(this.username)   // Wed see that "this" is only works in object
 
-}
+// }
 
-chaye() 
+// chaye() 
 //  ----------------------Explisit return(when curly braces use)-------------------
 
 // const adding=(num1,num2)=>{
@@ -60,8 +60,8 @@ chaye()
 //  console.log(adding(2,2))
 
 //   ++++++++++++++++++++ Implisit return ( when no any curly braces use )+++++++++++++
- const adding=(num1,num2)=>  num1+num2
- console.log(adding(2,2))
+//  const adding=(num1,num2)=>  num1+num2
+//  console.log(adding(2,2))
 
 // const adding=(num1,num2) =>  (num1+num2)  // with no curly braces
 // console.log(5+5)

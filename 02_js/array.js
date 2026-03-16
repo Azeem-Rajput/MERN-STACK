@@ -19,9 +19,9 @@ const array2=new Array(1,5,2,8,3)
 
 const anotherArray=myArray.join()
 console.log(myArray)
-// console.log(anotherArray)
-// console.log(typeof anotherArray)
-// console.log(typeof myArray)
+ console.log(anotherArray)
+ console.log(typeof anotherArray)
+ console.log(typeof myArray)
 
 
 

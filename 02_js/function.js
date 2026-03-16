@@ -76,9 +76,9 @@ const array=[29,900,11]
 
 function withArray(otherArray)
 {
-    // return `The secand value of aaray is ${otherArray[1]}`
+     return `The secand value of aaray is ${otherArray[1]}`
 }
-// console.log(withArray(array))
-// console.log(withArray([100,300,7100]))
+ console.log(withArray(array))
+ console.log(withArray([100,300,7100]))
 
 
