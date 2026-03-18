@@ -30,4 +30,27 @@ map.set('USA',"United State Of America")
 map.set('KSA',"Kingdom Of Saudia Arabia")
 map.set('UK',"United kingdom")
  
-console.log(map)
+// console.log(map)
+
+for (const key of map) {
+  // console.log(key)
+}
+
+
+for (const [key,value] of map) {
+  // console.log(key,':-',value)
+}
+
+
+// is it also for objects..? now try....
+
+const myobj={
+  f:'false',
+  t:'true'
+}
+
+for (const [key,value] of myobj) {
+  console.log(key,":-",value)
+}
+
+// so, (for of) loop is not working on objects it only works on map 
