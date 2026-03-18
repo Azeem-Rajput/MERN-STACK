@@ -55,12 +55,12 @@ customer.name="Rajput"
 //  ----------------------Explisit return(when curly braces use)-------------------
 
 // const adding=(num1,num2)=>{
-//      return num1+num2;
+//      return num1+num2;   (it is necesary to write return )
 // }
 //  console.log(adding(2,2))
 
 //   ++++++++++++++++++++ Implisit return ( when no any curly braces use )+++++++++++++
-//  const adding=(num1,num2)=>  num1+num2
+//  const adding=(num1,num2)=>  num1+num2     (no need of return)
 //  console.log(adding(2,2))
 
 // const adding=(num1,num2) =>  (num1+num2)  // with no curly braces
