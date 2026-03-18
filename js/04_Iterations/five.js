@@ -30,16 +30,19 @@ array.forEach( (val)=>{
 
 const array2=[
     {
-        js:'java',
+        name:'java',
         file:'js'
     },
     {
-        js:'python',
+        name:'python',
         file:'py'
     },
     {
-        js:'css',
+        name:'css',
         file:'cpp'
     }
 ]
 
+array2.forEach( (val)=>{
+    console.log(val.name)
+} )
