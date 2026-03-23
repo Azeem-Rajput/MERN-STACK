@@ -20,6 +20,7 @@ const books=[
         
         course:'react',
         price:2999
+        
     }
 ]
 
