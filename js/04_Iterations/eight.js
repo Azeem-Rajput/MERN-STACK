@@ -26,4 +26,5 @@ const books=[
 
 
 const totalp=books.reduce( (acc,value)=>acc+value.price,0 )
+
 console.log(totalp)
