@@ -6,7 +6,7 @@ const myobj={
     css:'css for design',
     js:'javascript'
 }
-// FOR IN loop
+// --------------------FOR IN loop-----------------------------
 for (const key in myobj) {
 //    console.log(`${key} is related to and it is ${myobj[key]}`)
 }

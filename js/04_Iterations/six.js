@@ -1,8 +1,8 @@
-// const array=['arm','wresling']
+const array=['arm','wresling']
 
 // const origin=array.forEach( (item)=>{
-    // console.log(item)         //----------- it means that FOR EACH loop does not return any value(prove)
-    // return item
+//     console.log(item)         //----------- it means that FOR EACH loop does not return any value(prove)
+//     return item
 // } )
 // console.log(origin)
 
@@ -10,12 +10,12 @@
 
 // ---------------for return values we use FILTER---------------
  const real=[1,2,3,4,5,6,7,8,9,10]
-//const re= real.filter( (val)=>val>4 )        // filter( ()=>condition )
-//console.log(re)
+const re= real.filter( (val)=>val>4 )        // filter( ()=>condition )
+// console.log(re)
 //            or
-// const val=real.filter( (num)=>{
-//   return num<=4
-// } )
+const val=real.filter( (num)=>{
+  return num<=4
+} )
 // console.log(val)
 
 
@@ -59,4 +59,4 @@ let values=books.filter( (bk)=>bk.genre=='History' )
 values=books.filter( (bk)=>
     bk.edition>=2000 && bk.genre==='History' 
 )
-console.log(values)
+// console.log(values)
