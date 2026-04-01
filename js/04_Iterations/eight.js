@@ -1,10 +1,10 @@
-const array=[1,2,3,4]
+// const array=[1,2,3,4]
 
-const total=array.reduce( function (acc,currval) {
-    console.log(`${acc} is accumulator and ${currval} is current value`)
-    return acc+currval
-} ,0)    // here 0 is initial value
-console.log(total)
+// const total=array.reduce( function (acc,currval) {
+//     console.log(`${acc} is accumulator and ${currval} is current value`)
+//     return acc+currval
+// } ,0)    // here 0 is initial value
+// console.log(total)
 
 
 // const books=[
