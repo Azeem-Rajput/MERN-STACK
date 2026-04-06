@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM--Edit and remove elements</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(addtext){
+        const li=document.createElement('li')
+        li.innerHTML=`${addtext}`           
+        document.querySelector('.language').appendChild(li)
+      }
+      addLanguage('python')
+      addLanguage('html')
+      function addOptimizeLanguage(addtext)
+      {
+        const li=document.createElement('li')
+        li.appendChild(document.createTextNode(addtext))   // 1-we also add by innerHTML
+        document.querySelector('.language').appendChild(li)
+      }
+      addOptimizeLanguage('css')
+
+
+      // Edit
+      const secandli=document.querySelector("li:nth-child(2)")
+      const newli=document.createElement('li')          // 2-Also by creating new element
+      newli.textContent='mongoDB'
+      secandli.replaceWith(newli)
+
+      //edit
+    //   const firstli=document.querySelector('li:nth-child(1)')
+    //   const nrep=document.createElement('li')
+    //   nrep.textContent="typescript"
+    //   firstli.replaceWith(nrep)
+      //             or
+    const firstli=document.querySelector('li:first-child')
+    firstli.outerHTML="<li>typescriptt</li>"        // 3-Also by outerHTML
+
+    //remove
+    const lastli=document.querySelector('li:last-child')
+    lastli.remove()
+</script>
+</html>
