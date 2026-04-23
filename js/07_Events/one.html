@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>html EVENTS</title>`
 </head>
 <body style="background-color: grey;">
      <h2>Amazing image</h2>
@@ -30,21 +30,36 @@
 
     //  document.getElementById('images').addEventListener('click',function(e){
     //     console.log("clicked link inside ul")
-    // },false)
+    // },false)            // true/false
 
     // document.getElementById('owl').addEventListener('click',function(e){
     //    console.log("owl clicked")
-    //},false)             
+    //    e.stopPropagation()
+    // },false)             // true/false
 
     //---------------- true=capturing mode(execute from outside to inside)-----------------------
      //--------------- false=bubling mode(excute from inside to outside like bubble)-------------------
+ 
+
+    // document.getElementById('google').addEventListener('click',function(e){
+    //     console.log("google clicked")
+    //     e.preventDefault()
+    //     e.stopPropagation()
+    // },false)
 
 
-    document.getElementById('images').addEventListener('click',function(e){
-        console.log("clicked link inside ul")
-    },true)
-    document.getElementById('owl').addEventListener('click',function(e){
-        console.log("owl clicked")
-    },true)   
+    document.getElementById('images').addEventListener("click",function(e){
+        console.log(e.target.tagName)
+        if(e.target.tagName=="IMG")
+    {
+        console.log(e.target.id)
+         let removing=e.target.parentNode
+        removing.remove()
+    }
+    })
+// removing.parentNode.childNode(removing)
+
+
+    
 </script>
 </html>
