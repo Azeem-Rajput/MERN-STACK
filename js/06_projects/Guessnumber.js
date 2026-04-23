@@ -22,8 +22,9 @@ if(playGame)
     const guess=parseInt(userInput.value)
     console.log(guess)
     validateGuess(guess)
+    
   })
-  
+
 }
 function validateGuess(guess)
 {
