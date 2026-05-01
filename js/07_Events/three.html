@@ -17,15 +17,18 @@
 
 <script>
  
-const hi=function(str){
+   let hi=function(str){
     console.log(str,Date.now())
 }
-const clear=setInterval(hi,1000,"hello")
+  let clear
 document.querySelector("#start").addEventListener('click',function(){
-   
-    setInterval(hi,1000,"hi")
+ 
+    clear=setInterval(hi,1000,"hii")
     console.log("STARTED")
 })
+   
+
+
 document.querySelector("#stop").addEventListener('click',function(){
     clearInterval(clear)
     console.log("STOPPED")

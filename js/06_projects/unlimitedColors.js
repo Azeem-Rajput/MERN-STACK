@@ -8,6 +8,7 @@ const randomColor=function(){
   }
   return color;
 }
+
 let chh;
 const startChanging=function(){
 chh=setInterval(change,1000)
@@ -15,6 +16,7 @@ function change(){
   document. body.style.backgroundColor=randomColor()
 }
 }
+
 const stopChanging=function(){
   clearInterval(chh)
   chh=null
