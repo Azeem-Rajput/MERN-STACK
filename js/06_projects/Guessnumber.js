@@ -26,6 +26,7 @@ if(playGame)
   })
 
 }
+
 function validateGuess(guess)
 {
   if(isNaN(guess))
