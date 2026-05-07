@@ -7,16 +7,22 @@
 </head>
 
 <style>
+  body{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  }
     .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+  border: 2px solid rgb(88, 130, 245);
+  margin: 20px 20px 20px 20px;
+ 
 }
 
-/* On mouse-over, add a deeper shadow */
+/* On mouse-over, add a deeper shadow
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+} */
 
 /* Add some padding inside the card container */
 .container {
@@ -25,22 +31,25 @@
 </style>
 
 <body>
-    <div class="card">
-  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+<div class="card">
+    <img src="https://avatars.githubusercontent.com/u/216947155?v=4" alt="Avatar" >
   <div class="container">
-    <h4><b>John Doe</b></h4>
+    <h4></h4>
     <p>SOFTWARE ENGINEER</p>
   </div>
 </div>
 </body>
 
 <script>
-    const avatarURL='https://avatars.githubusercontent.com/u/216947155?v=4'
+   const requestURL='https://api.github.com/users/Azeem-Rajput'
     const xhr=new XMLHttpRequest()
-    xhr.open('GET',avatarURL)
+    xhr.open('GET',requestURL)
     xhr.onreadystatechange=function(){
-        const data=JSON.parse(this.responseText)
+      const data=JSON.parse(this.responseText)
+      const fl=(data.followers)
+      document.querySelector('h4').innerHTML=`<div>Follwers:${fl}</div>`
     }
+    xhr.send()
 
 </script>
 
