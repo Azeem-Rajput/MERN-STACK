@@ -113,7 +113,7 @@ consumePromiseFive()
 fetch('https://api.github.com/users/Azeem-Rajput')
 .then((response)=>{
     return response.json()
-})
+} )
 .then((data)=>{
     console.log(data)
 })
