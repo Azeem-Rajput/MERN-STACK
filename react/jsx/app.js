@@ -44,13 +44,60 @@
 // const element=<h1>helloooo coooderrr {isLoggedIn?<h1>You logged in</h1>:<h1>'KID'</h1>}</h1>
 
 
-const languages=['HTML','CSS','javascript','react']
-const element=(
-    <ul>
-        {languages.map(languages=><li>{languages}</li>)}
-    </ul>    
-)
+// const languages=['HTML','CSS','javascript','react']
+// const element=(
+//     <ul>
+//         {languages.map(languages=><li>{languages}</li>)}
+//     </ul>    
+// )
+// const element=<h1 id="elemnt" className="first" style={{backgroundColor:"orange", color:"green"}}>helloo bhai coder</h1> 
+// function App(props)
+// {
+//     return(
+//         <h1>helloo bhai coder {props.name} {props.age}</h1>
+//     )
+// }
+// const element=<App name='azeem' age={11}></App>
+
+
+
+function Header({name})                                                  // const props={
+                                                                         //                name:'AZEEM'    }
+{                                                                        // const {name}=props
+    return(
+        <h1>{name} Welcome to pakistan election commision </h1>
+    )
+}
+function Main({user})
+{
+    return(
+        <>
+        <h2>below is our information</h2>
+        <p>Hi {user.name}</p>
+        <p>{user.age>18?'you are eligible for vote':'you are not eligible for vote'}</p>
+        <p>You are belongs to {user.city}</p>
+        </>
+    )
+}
+function Footer()
+{
+    return(
+        <h1>THANKS for visiting</h1>
+    )
+}
+
+function App()
+{
+    return(
+        <>
+        <Header name='AZEEM'></Header>
+        <Main user={{name:"AZEEM",age:18,city:"lahore"}}></Main>
+        <Footer></Footer>
+        </>
+    )
+}
+
 const root=ReactDOM.createRoot(document.getElementById('root'))
 
 // root.render(element3)   
-root.render(element)   // (<App/>)
+root.render(<App></App>)   // (<App/>)
