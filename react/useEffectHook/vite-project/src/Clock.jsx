@@ -18,7 +18,7 @@ function Clock(){
             clearInterval(interval)
         }
        
-    },[show])
+    } ,[show])
 
     return(
         <>
