@@ -15,6 +15,7 @@ function Clock(){
                 clocks.map(clock=><Counting key={clock} name={clock}></Counting>)
             }
         </div>
+        
         </>
     )
 }
