@@ -20,6 +20,7 @@ function App() {
   }
   function handleReset(){
     clearInterval(intervalIdRef.current);
+    intervalIdRef.current=null;
     setTime(0);
   }
   return (
