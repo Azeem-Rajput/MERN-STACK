@@ -1,8 +1,9 @@
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import Form from './Form.jsx'
+import Zodform from './Zodform.jsx'
 
 createRoot(document.getElementById('root')).render(
   
-    <Form/>
+    <Zodform/>
   )
