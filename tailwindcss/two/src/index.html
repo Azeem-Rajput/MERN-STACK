@@ -4,36 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
     <title>Document</title>
 
 </head>
 <body>
-    <section class="bg-[url('images/rectangle.jpg')] bg-cover bg-center w-[100] h-screen">
+    <section class="bg-[url('images/rectangle.jpg')] bg-cover bg-center w-full h-screen">
       <header class="py-5" >
-        <div class="max-w-\[1440px\] mx-auto flex justify-between items-center">
+        <div class="max-w-[1440px] mx-auto flex justify-between items-center  px-[20px]">
             <figure >
                 <img src="images/EstateA.png" alt="">
             </figure>
-            <nav>
-                <ul class="flex gap-10">
+            <nav class="md:block duration-400 md:w-auto md:h-auto md:p-0 p-3 md:bg-transparent bg-[#09707D] h-max w-[80%] md:static fixed top-0 left-[-100%]">
+                <ul class="flex md:flex-row flex-col  gap-10 ">
                     <li class="text-white font-poppins text-[16px]"> <a href="">Home</a></li>
-                    <li class="text-white font-poppins"> <a href="">Buy</a></li>
-                    <li class="text-white font-poppins"> <a href="">Rent</a></li>
-                    <li class="text-white font-poppins"> <a href="">Sell</a></li>
+                    <li class="text-white font-poppins text-[16px]"> <a href="">Buy</a></li>
+                    <li class="text-white font-poppins text-[16px]"> <a href="">Rent</a></li>
+                    <li class="text-white font-poppins text-[16px]"> <a href="">Sell</a></li>
+                  
                 </ul>
             </nav>
-                <button class="px-[20px]">
+
+            
+            <div class="gap-[20px] flex">
+            <button class=" md:block hidden bg-white p-[15px_35px] text-[#09707D] rounded-[7px]">
                 login
-                </button>
+            </button>
+            <button class=" md:block hidden bg-[#09707D] p-[15px_35px] text-white text-[16px] rounded-[7px]">
+                Sign up
+            </button>
+            </div>
+            <button id="icon" class="md:hidden block">
+                <i class="fa-solid fa-bars  text-white"></i>
+            </button>
+    
         </div>
-        <div class="py-[50px]">
-            <h1 class="font-inter text-center md:text-[70px] text-[30px] pt-[130px] text-white">
+        <div class="font-inter  py-[50px] text-center">
+            <h1 class=" md:text-[70px] text-[30px] pt-[130px] text-white">
             Find your next home
-        </h1>
+            </h1>
+            <p class="text-[20px] text-white">Browse thousands of listings or pick up where you left off.</p>
+            <button class="bg-[#09707D] text-white p-[20px_30px] m-[30px] rounded-[10px] animate-bounce hover:bg-white hover:text-[#09707D] cursor-pointer">
+                Get Started
+            </button>
         </div>
         
       </header>
     </section>
+
+    <section class="bg-white py-[20px]">
+        <div id="first" class="max-w-[1300px] mx-auto ">
+            <div class="font-inter text-[28px]">
+                <div class="font-bold">
+                <img src="images/star Icons.png" alt="">
+                Explore Your Options
+                </div>
+                <p class="font-inter text-[16px]">
+                    Start your property journey here.
+                </p>
+            </div>
+        </div>
+        <article class="max-w-[1300px] mx-auto grid md:grid-cols-3 gap-[30px]">
+            <div class="border border-[#EBEBEB] rounded-[10px] p-[25px_25px] group ">
+                <img class="group-hover:scale-150 duration-300" src="images/lines icon.png" alt="">
+               <p class="font-inter text-[24px] font-bold">Buy a Home</p>
+                <p class="font-inter text-[16px] text-[#525252]">Browse thousands of homes for sale</p>
+                <button class="text-[#09707D]">Explore to Buy
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </div>
     
+             <div class="border border-[#EBEBEB] rounded-[10px] p-[25px_25px] ">
+                <img src="images/lines icon.png" alt="">
+               <p class="font-inter text-[24px] font-bold">Buy a Home</p>
+                <p class="font-inter text-[16px] text-[#525252]">Browse thousands of homes for sale</p>
+                <button class="text-[#09707D]">Explore to Buy
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </div>
+
+            <div class="border border-[#EBEBEB] rounded-[10px] p-[25px_25px] ">
+                <img src="images/lines icon.png" alt="">
+               <p class="font-inter text-[24px] font-bold">Buy a Home</p>
+                <p class="font-inter text-[16px] text-[#525252]">Browse thousands of homes for sale</p>
+                <button class="text-[#09707D]">
+                    Explore to Buy
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </div>
+        </article>
+    </section>
+    <script src="app.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
