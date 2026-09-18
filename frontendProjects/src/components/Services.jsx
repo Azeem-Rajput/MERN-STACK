@@ -2,6 +2,7 @@ import React from 'react'
 import assets from '../assets/assets'
 import Title from './Title'
 import ServiceCard from './ServiceCard'
+import { motion, scale } from "motion/react"
 
 const Services = () => {
 
