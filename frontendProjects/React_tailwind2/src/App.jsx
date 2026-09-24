@@ -1,12 +1,17 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Hero from './section/hero'
-
+import HeroSection from './section/HeroSection'
+import About from './section/About'
+import Stats from './section/Stats'
+import Dishes from './section/Dishes'
 const App = () => {
   return (
     <>
       <Navbar />
-      <Hero />
+      <HeroSection />
+      <About />
+      <Stats />
+      <Dishes />
     </>
   )
 }

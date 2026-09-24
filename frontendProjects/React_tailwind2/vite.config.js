@@ -9,8 +9,6 @@ export default defineConfig({
   ],
 
   server: {
-    watch: {
-      usePolling: true,
-    },
-  },
+  watch: true,
+},
 })
