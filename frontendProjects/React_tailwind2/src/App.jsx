@@ -4,6 +4,12 @@ import HeroSection from './section/HeroSection'
 import About from './section/About'
 import Stats from './section/Stats'
 import Dishes from './section/Dishes'
+import Features from './section/Features'
+import BookingProcess from './section/BookingProcess'
+import Timing from './section/Timing'
+import TestimonialSection from './section/TestimonialSection'
+import FAQs from './section/FAQs'
+import CTA from './section/CTA'
 const App = () => {
   return (
     <>
@@ -12,6 +18,12 @@ const App = () => {
       <About />
       <Stats />
       <Dishes />
+      <Features />
+      <BookingProcess />
+      <Timing />
+      <TestimonialSection />
+      <FAQs />
+      < CTA />
     </>
   )
 }

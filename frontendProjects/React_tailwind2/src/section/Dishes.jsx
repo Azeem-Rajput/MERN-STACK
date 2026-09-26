@@ -14,9 +14,9 @@ const Dishes = () => {
             </p>
         </Animated>
         <Animated>
-            <p className='text-4xl md:text-5xl max-w-lg mx-auto text-balance'>
+            <h2 className='text-4xl md:text-5xl max-w-lg mx-auto text-balance'>
                 Discover our signature dishes
-            </p>
+            </h2>
         </Animated>
       </div>
 
