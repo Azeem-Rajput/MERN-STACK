@@ -48,6 +48,7 @@ const CTA = () => {
             Every Meal Is Made To Be Remembered
           </h1>
         </Animated>
+        
         <Animated y={20} delay={0.2}>
           <p className="mt-4 text-white max-w-sm mx-auto">
             Join us for fresh ingredients, signature recipes and an
