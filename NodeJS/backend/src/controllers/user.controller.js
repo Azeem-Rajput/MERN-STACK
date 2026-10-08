@@ -28,7 +28,7 @@ const registerUser=asyncHandler( async (req,res) =>{
 
 
    // is user exist
-   const existdeUser= User.findOne({
+   const existedUser= User.findOne({
     $or:[{ username }, { email }]
    })
 
