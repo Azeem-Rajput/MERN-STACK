@@ -264,7 +264,7 @@ const updateAccountDetail=asyncHandler(async(req,res)=>
       throw new ApiError(400, "All fields are required")
    }
 
-   const user=User.findById(req.user?._id,
+   const user=await User.findByIdAndUpdate(req.user?._id,
       {
          $set:{
             fullName:fullName,
@@ -291,7 +291,7 @@ const updateUserAvatar= asyncHandler(async(req,res)=>{
    const avatar=await uploadOnCloudinary(avatarLocalPath)
 
    if(!avatar.url){
-      throw new ApiError(400,"error while uploading avatar on cloudinary")
+      throw new ApiError(400,"error while uploading avatar")
    }
 
    const user=await User.findByIdAndUpdate(req.user?._id,
